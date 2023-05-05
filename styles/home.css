@@ -1,0 +1,77 @@
+body {
+    height: 100vh;
+    margin: 10px auto;
+}
+
+img {
+    scale: 15%;
+    position: absolute;
+    top: -600px;
+    right: -525px;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+    background-color: burlywood;
+    width: 70%;
+    height: 90%;
+    border: 5px solid rgb(59, 32, 10);
+    border-radius: 0 0 1rem 1rem;
+    position: relative;
+    }
+
+h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 2px black;
+    padding: 1em 1.5em;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 50px double white;;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: start;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3em 4em;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    display: block;
+    padding: 2em;
+    background-color: rgb(59, 32, 10);
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .25rem;
+    color: white;
+    position: relative;
+}
+
+.left { 
+    border-radius: 1rem 0 0 1rem;
+}
+
+.right {
+    border-radius: 0 1rem 1rem 0;
+}
+
+li a span {
+    color: burlywood; font-weight: 100;
+}
+
